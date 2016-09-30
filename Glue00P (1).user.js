@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Glue00P
 // @namespace    http://tampermonkey.net/
-// @version      0.1
+// @version      0.2
 // @description  Disable copy pate restriction in skillrack
 // @author       Technophilic
 // @require      https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.6.15/browser-polyfill.min.js
