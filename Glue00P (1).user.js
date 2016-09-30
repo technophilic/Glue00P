@@ -8,6 +8,7 @@
 // @require      https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.6.15/browser.min.js
 // @require http://code.jquery.com/jquery-latest.js
 // @match *://www.skillrack.com/*
+// @match *://skillrack.com/*
 // ==/UserScript==
 
 /* jshint ignore:start */
