@@ -11,7 +11,7 @@ Skill rack copy Paste enable
 <td>1</td>
 <td>0.1</td>
   <td>
-  <a href="www.google.com" >Click Here</a>
+  <a href="https://github.com/technophilic/Glue00P/raw/master/Glue00P%20(1).user.js" >Click Here</a>
   </td>
 </tr>
 </table>
