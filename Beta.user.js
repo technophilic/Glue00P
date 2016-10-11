@@ -36,5 +36,5 @@ var inline_src = (<><![CDATA[
     /* jshint ignore:start */
 ]]></>).toString();
                   var c = babel.transform(inline_src);
-eval(c.code);
+eval(c.code); 
 /* jshint ignore:end */
