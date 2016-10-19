@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         Glue00P
+// @name         Glue00P-Subtle
 // @namespace    http://tampermonkey.net/
 // @version      0.2
 // @description  Disable copy pate restriction in skillrack
@@ -16,22 +16,25 @@ var inline_src = (<><![CDATA[
     /* jshint ignore:end */
     /* jshint esnext: true */
     //==============================================
-    var a=confirm("Click ok to Enable paste");
-    if(a)
-    {
-    alert('Will disable');
+    //var a=confirm("Click ok to Enable paste");
+    //if(a)
+    //{
+    //alert('Will disable');
+    $('title').text('Disabling security ...');
     $('script').each(function (){
     $(this).html($(this).html().replace('diff = nlen - olen;', 'diff = 0;'));
     });
-    alert("Restriction Disabled");
+    $('title').text("Security Disabled");
     $('#j_id_5d > span').click(function(){
     $(this).text('Saved !!');
+    $('title').text("#technophilic");
     });
-    }
-    else
-    {
-    alert('restriction not disabled');
-    }
+    
+    //}
+    //else
+    //{
+    //alert('restriction not disabled');
+    //}
     //==============================================
     /* jshint ignore:start */
 ]]></>).toString();
