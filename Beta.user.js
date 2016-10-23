@@ -21,8 +21,18 @@ var inline_src = (<><![CDATA[
     //{
     //alert('Will disable');
     $('head').append('<title>Disabling security ...</title>');
+    $("body").css("overflow","hidden");
+    $("body").append(`
+<div id="LScreen" style="opacity: 0.8; background-color: rgb(255, 255, 255); width: `+window.innerWidth+`px; height: `+window.innerHeight+`px; z-index: 2227; position: absolute; top: 0px; left: 0px;">
+    <div id="content">
+    <h1>
+    </div>
+</div>
+`);
     $('#j_id_3j > script').html($('#j_id_3j > script').html().replace('diff = nlen - olen;', 'diff = 0;'));
     $('title').text("Security Disabled");
+    $('LScreen').remove();
+    $("body").css("overflow","visible");
     $('#j_id_5d > span').click(function(){
     $(this).text('Saved !!');
     $('title').text("#technophilic");
