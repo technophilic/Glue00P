@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Glue00P-Subtle
 // @namespace    http://tampermonkey.net/
-// @version      0.4
+// @version      1.0
 // @description  Disable copy pate restriction in skillrack
 // @author       Technophilic
 // @require      https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.6.15/browser-polyfill.min.js
@@ -31,7 +31,7 @@ var inline_src = (<><![CDATA[
 `);
     $('body').html($('body').html().replace('diff = nlen - olen;', 'diff = 0;'));
     $('title').text("Security Disabled");
-    $('LScreen').remove();
+    $('#LScreen').remove();
     $("body").css("overflow","visible");
     $('#j_id_5d > span').click(function(){
     $(this).text('Saved !!');
