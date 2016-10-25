@@ -22,10 +22,10 @@ var inline_src = (<><![CDATA[
     //alert('Will disable');
     $('head').append('<title>Disabling security ...</title>');
     $("body").css("overflow","hidden");
-    $("body").append(`
+    $("body").prepend(`
 <div id="LScreen" style="opacity: 0.8; background-color: rgb(255, 255, 255); width: `+window.innerWidth+`px; height: `+window.innerHeight+`px; z-index: 2227; position: absolute; top: 0px; left: 0px;">
     <div id="content">
-    <h1>
+    <h1>Disabling Security.....</h1>
     </div>
 </div>
 `);
