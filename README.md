@@ -19,7 +19,7 @@
 <td>0.1</td>
 <td>(initial release)</td>
   <td>
-  <a href="">Click Here</a>
+  <a href="https://github.com/technophilic/Glue00P/raw/master/Glue00P%20(1).user.js">Click Here</a>
   </td>
 </tr>
 </table>
