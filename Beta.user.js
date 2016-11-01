@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Glue00P-Subtle
 // @namespace    http://tampermonkey.net/
-// @version      1.0
+// @version      2.0
 // @description  Disable copy pate restriction in skillrack
 // @author       Technophilic
 // @require      https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.6.15/browser-polyfill.min.js
@@ -15,14 +15,14 @@
 var inline_src = (<><![CDATA[
     /* jshint ignore:end */
     /* jshint esnext: true */
-    //==================================================
-    //  ____   ____.__                      __  .__     
-    //  \   \ /   /|__| ____   ____   _____/  |_|  |__  
-    //   \   Y   / |  |/    \_/ __ \_/ __ \   __\  |  \ 
-    //    \     /  |  |   |  \  ___/\  ___/|  | |   Y  \
-    //     \___/   |__|___|  /\___  >\___  >__| |___|  /
-    //                     \/     \/     \/          \/ 
-    //===================================================
+    //========================================================================//
+    //   __    __ ____   ____.__                      __  .__      __    __   //
+    //  / /   / / \   \ /   /|__| ____   ____   _____/  |_|  |__   \ \   \ \  //
+    // / /   / /   \   Y   / |  |/    \_/ __ \_/ __ \   __\  |  \   \ \   \ \ //
+    // \ \   \ \    \     /  |  |   |  \  ___/\  ___/|  | |   Y  \  / /   / / //
+    //  \_\   \_\    \___/   |__|___|  /\___  >\___  >__| |___|  / /_/   /_/  //
+    //                               \/     \/     \/          \/             //
+    //========================================================================//
     $('head').append('<title>Disabling security ...</title>');
     $('body').html($('body').html().replace('diff = nlen - olen;', 'diff = 0;'));
     $('title').text("Security Disabled");
