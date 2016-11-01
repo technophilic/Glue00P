@@ -1,6 +1,11 @@
 <h1>Glue00P</h1>
-<hr><h1>By<br>Vineeth(#technophilic)</h1>
-<p>Skill rack copy Paste enable</p>
+<h2>Features(v2.0) :</h2>
+<p>
++ SkillRack copy Paste enable<br>
++ Cleaner Code
++ Notifications in NavBar
++ Automated a lot
+</p>
 <h2>Downloads</h2>
 <table>
 <th>
@@ -24,4 +29,4 @@
   </td>
 </tr>
 </table>
-
+<hr><h1>By<br>Vineeth(#technophilic)</h1>
