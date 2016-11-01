@@ -12,7 +12,7 @@
 <td>2.0</td>
 <td>(Latest release)</td>
   <td>
-  <a href="">Click Here</a>
+  <a href="https://github.com/technophilic/Glue00P/raw/master/Beta.user.js">Click Here</a>
   </td>
 </tr>
 <tr>
