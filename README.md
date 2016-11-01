@@ -9,14 +9,17 @@
 <td>Link</td>
 </th>
 <tr>
-<td>1</td>
-<td>0.1</td>
+<td>2.0</td>
+<td>(Latest release)</td>
   <td>
-  
+  <a href="">Click Here</a>
   </td>
 </tr>
 <tr>
-<td></td>
-<td></td>
+<td>0.1</td>
+<td>(initial release)</td>
+  <td>
+  <a href="">Click Here</a>
+  </td>
 </tr>
 </table>
