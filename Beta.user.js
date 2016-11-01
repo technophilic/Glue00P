@@ -15,20 +15,15 @@
 var inline_src = (<><![CDATA[
     /* jshint ignore:end */
     /* jshint esnext: true */
-    //==============================================
-    //var a=confirm("Click ok to Enable paste");
-    //if(a)
-    //{
-    //alert('Will disable');
+    //==================================================
+    //  ____   ____.__                      __  .__     
+    //  \   \ /   /|__| ____   ____   _____/  |_|  |__  
+    //   \   Y   / |  |/    \_/ __ \_/ __ \   __\  |  \ 
+    //    \     /  |  |   |  \  ___/\  ___/|  | |   Y  \
+    //     \___/   |__|___|  /\___  >\___  >__| |___|  /
+    //                     \/     \/     \/          \/ 
+    //===================================================
     $('head').append('<title>Disabling security ...</title>');
-    $("body").css("overflow","hidden");
-    $("body").prepend(`
-<div id="LScreen" style="opacity: 0.8; background-color: rgb(255, 255, 255); width: `+window.innerWidth+`px; height: `+window.innerHeight+`px; z-index: 2227; position: absolute; top: 0px; left: 0px;">
-    <div id="content">
-    <h1>Disabling Security.....</h1>
-    </div>
-</div>
-`);
     $('body').html($('body').html().replace('diff = nlen - olen;', 'diff = 0;'));
     $('title').text("Security Disabled");
     $('#LScreen').remove();
@@ -38,11 +33,6 @@ var inline_src = (<><![CDATA[
     $('title').text("#technophilic");
     });
     
-    //}
-    //else
-    //{
-    //alert('restriction not disabled');
-    //}
     //==============================================
     /* jshint ignore:start */
 ]]></>).toString();
