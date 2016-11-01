@@ -4,7 +4,7 @@
 + SkillRack copy Paste enable<br>
 + Cleaner Code<br>
 + Notifications in NavBar<br>
-+ Automated a lot
++ Automated functions (Sit back and relax :) )
 </p>
 <h2>Downloads</h2>
 <table>
