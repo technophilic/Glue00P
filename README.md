@@ -1,10 +1,10 @@
 <h1>Glue00P</h1>
 <h2>Features(v2.0) :</h2>
 <p>
-+ SkillRack copy Paste enable<br>
-+ Cleaner Code<br>
-+ Notifications in NavBar<br>
-+ Automated functions (Sit back and relax :) )
+<> SkillRack copy Paste enable<br>
+<> Cleaner Code<br>
+<> Notifications in NavBar<br>
+<> Automated functions (Sit back and relax :) )
 </p>
 <h2>Downloads</h2>
 <table>
