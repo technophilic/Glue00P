@@ -23,5 +23,4 @@
   </td>
 </tr>
 </table>
-<h2>By</h2>
-<h1>  Vineeth</h1>
+<hr><h1>By<br>Vineeth(#technophilic)</h1>
