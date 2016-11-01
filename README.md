@@ -2,8 +2,8 @@
 <h2>Features(v2.0) :</h2>
 <p>
 + SkillRack copy Paste enable<br>
-+ Cleaner Code
-+ Notifications in NavBar
++ Cleaner Code<br>
++ Notifications in NavBar<br>
 + Automated a lot
 </p>
 <h2>Downloads</h2>
