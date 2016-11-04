@@ -7,8 +7,10 @@
 // @require      https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.6.15/browser-polyfill.min.js
 // @require      https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.6.15/browser.min.js
 // @require http://code.jquery.com/jquery-latest.js
-// @match *://www.skillrack.com/*
-// @match *://skillrack.com/*
+// @match *://www.skillrack.com/faces/candidate/codeexamcenter.xhtml*
+// @match *://www.skillrack.com/faces/candidate/codetest.xhtml*
+// @match *://skillrack.com/faces/candidate/codeexamcenter.xhtml*
+// @match *://skillrack.com/faces/candidate/codetest.xhtml*
 // ==/UserScript==
 
 /* jshint ignore:start */
