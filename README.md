@@ -4,7 +4,8 @@
 <> SkillRack copy Paste enable<br>
 <> Cleaner Code<br>
 <> Notifications in NavBar<br>
-<> Automated functions (Sit back and relax :) )
+<> Automated functions (Sit back and relax :) )<br>
+<> <i>Better question detection capabilities <(NEW)></i>
 </p>
 <h2>Downloads</h2>
 <table>
