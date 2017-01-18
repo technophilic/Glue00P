@@ -1,6 +1,5 @@
 // ==UserScript==
 // @name         Glue00P-Subtle
-// @namespace    http://tampermonkey.net/
 // @version      2.1
 // @description  Disable copy pate restriction in skillrack
 // @author       Technophilic
